@@ -1,0 +1,225 @@
+# Exercícios de Programação
+
+## Exercícios de Programação para Desenvolvedor Júnior
+
+### Fundamentos e Lógica - Python
+
+1. Condicionais (if/else): Verifique se um número digitado pelo usuário é par ou ímpar.
+
+1. Condicionais Aninhadas: Peça três notas a um aluno e calcule a média. Se a média for maior ou igual a 7, imprima "Aprovado". Se for entre 5 e 6.9, imprima "Recuperação". Caso contrário, imprima "Reprovado".
+
+1. Loop for: Imprima os números de 1 a 10.
+
+1. Loop while: Imprima os números de 10 a 1 em ordem decrescente.
+
+1. Listas: Crie uma lista com 5 nomes. Acesse e imprima o terceiro nome da lista.
+
+1. Tuplas: Crie uma tupla com as coordenadas (latitude, longitude) de uma cidade. Imprima cada coordenada.
+
+1. Dicionários: Crie um dicionário para armazenar informações de um livro (título, autor, ano de publicação). Acesse e imprima o autor.
+
+1. Funções e Estruturas de Dados
+Função Simples: Crie uma função que receba dois números e retorne a soma deles.
+
+1. Função com Parâmetro Padrão: Crie uma função que cumprimente uma pessoa. Se nenhum nome for fornecido, use "Mundo".
+
+1. Função com Múltiplos Retornos: Crie uma função que receba uma lista de números e retorne o menor e o maior número.
+
+1. Escopo de Variáveis: Demonstre o uso de variáveis locais e globais em um programa simples.
+
+1. Manipulação de Strings: Peça ao usuário uma frase e imprima-a em letras maiúsculas e minúsculas.
+
+1. Remoção de Elementos da Lista: Crie uma lista de números e remova o terceiro elemento.
+
+1. Adicionar Elementos à Lista: Adicione um novo elemento ao final de uma lista existente.
+
+1. Iterando sobre Dicionários: Itere sobre as chaves e valores de um dicionário e imprima-os.
+
+1. Sets: Crie dois sets de números e encontre a união e a interseção.
+
+1. Compreensão de Listas: Crie uma lista dos quadrados dos números de 1 a 10 usando compreensão de listas.
+
+1. Programação Orientada a Objetos (POO)
+Classe Básica: Crie uma classe Pessoa com atributos nome e idade.
+
+1. Métodos: Adicione um método apresentar à classe Pessoa que imprima uma saudação com o nome e idade.
+
+1. Construtor (__init__): Modifique a classe Pessoa para que o nome e a idade sejam passados no construtor.
+
+1. Herança: Crie uma classe Aluno que herde de Pessoa e tenha um atributo adicional matricula.
+
+1. Sobrescrita de Método: Na classe Aluno, sobrescreva o método apresentar para incluir a matrícula.
+
+#### Arquivos e Exceções
+
+1. Leitura de Arquivo: Crie um arquivo de texto simples e, em seguida, leia seu conteúdo e imprima-o.
+
+1. Escrita em Arquivo: Peça ao usuário uma frase e salve-a em um novo arquivo de texto.
+
+1. Tratamento de Exceções (try/except): Peça ao usuário para digitar um número inteiro. Use try-except para lidar com erros caso o usuário digite um valor não numérico.
+
+1. Divisão por Zero: Crie um programa que peça dois números e tente dividi-los, tratando a exceção de divisão por zero.
+
+1. Manipulação de Arquivos JSON: Crie um dicionário e salve-o em um arquivo JSON. Em seguida, leia o arquivo JSON e imprima o conteúdo.
+
+#### Desafios Extras
+
+1. Fatorial: Crie uma função para calcular o fatorial de um número.
+
+1. Fibonacci: Crie uma função que gere os primeiros N termos da sequência de Fibonacci.
+
+1. Palíndromo: Crie uma função que verifique se uma string é um palíndromo (lê-se igual de trás para frente).
+
+1. Contagem de Caracteres: Crie uma função que conte a frequência de cada caractere em uma string.
+
+1. Calculadora Simples: Crie um programa que funcione como uma calculadora básica (soma, subtração, multiplicação, divisão) usando funções e um loop para permitir múltiplas operações.
+
+## Java (35 Exercícios)
+
+### Fundamentos e Lógica
+
+1. Variáveis e Tipos de Dados: Declare variáveis de diferentes tipos (int, double, String, boolean) e imprima seus valores.
+
+1. Operadores Aritméticos: Peça ao usuário dois números inteiros e exiba o resultado das cinco operações aritméticas básicas.
+
+1. Entrada e Saída: Use Scanner para ler o nome do usuário e imprimi-lo com uma saudação.
+
+1. Condicionais (if/else): Verifique se um número digitado é positivo, negativo ou zero.
+
+1. Condicionais Aninhadas: Determine se um ano é bissexto (divisível por 4, mas não por 100, a menos que seja divisível por 400).
+
+1. Loop for: Imprima a tabuada de um número fornecido pelo usuário.
+
+1. Loop while: Peça ao usuário para digitar números até que ele digite zero. Calcule a soma dos números digitados.
+
+1. Arrays: Declare e inicialize um array de 5 números inteiros. Imprima o terceiro elemento.
+
+1. Listas (ArrayList): Crie um ArrayList de Strings. Adicione 3 nomes e imprima todos os nomes.
+
+1. Mapas (HashMap): Crie um HashMap para armazenar o nome de um país e sua capital. Adicione 3 pares e imprima a capital de um país específico.
+
+### Funções (Métodos) e Estruturas de Dados
+
+1. Método Simples: Crie um método que receba duas strings e retorne a concatenação delas.
+
+1. Método com Retorno: Crie um método que receba o raio de um círculo e retorne sua área.
+
+1. Sobrecarga de Métodos: Crie dois métodos com o mesmo nome, mas que aceitem diferentes tipos ou número de parâmetros (ex: um que some dois inteiros, outro que some três inteiros).
+
+1. Arrays Multidimensionais: Crie uma matriz 3x3 e preencha-a com números. Imprima a matriz.
+
+1. Manipulação de Strings: Peça ao usuário uma frase e conte quantas vogais ela possui.
+
+1. Remoção de Elementos do ArrayList: Remova um elemento específico de um ArrayList de Strings.
+
+1. Iterando sobre ArrayList: Itere sobre um ArrayList e imprima cada elemento.
+
+1. Iterando sobre HashMap: Itere sobre as chaves e valores de um HashMap e imprima-os.
+
+1. Passagem por Valor vs. Referência: Demonstre a diferença entre passagem por valor e passagem por referência com um exemplo simples.
+
+1. Strings Imutáveis: Explique e demonstre a imutabilidade de Strings em Java.
+
+### Programação Orientada a Objetos (POO)
+
+1. Classe Básica: Crie uma classe Carro com atributos marca, modelo e ano.
+
+1. Métodos: Adicione um método exibirDetalhes à classe Carro que imprima as informações do carro.
+
+1. Construtor: Crie um construtor para a classe Carro que inicialize todos os atributos.
+
+1. Encapsulamento (Getters e Setters): Adicione métodos getters e setters para os atributos da classe Carro.
+
+1. Herança: Crie uma classe Moto que herde de Carro e tenha um atributo adicional cilindradas.
+
+1. Polimorfismo: Crie uma classe Veiculo abstrata e classes Carro e Moto que a estendam. Demonstre polimorfismo com um array de Veiculo.
+
+1. Classes Abstratas: Crie uma classe Forma abstrata com um método abstrato calcularArea().
+
+1. Interfaces: Crie uma interface Animal com métodos emitirSom() e mover(). Crie classes Cachorro e Gato que implementem Animal.
+
+1. Sobrescrita de Método (@Override): Na classe Cachorro, sobrescreva o método emitirSom() para que ele imprima "Au au!".
+
+1. Modificadores de Acesso: Explique e demonstre o uso de public, private e protected com exemplos.
+
+### Tratamento de Exceções
+
+1. try-catch: Peça ao usuário para digitar um número e tente convertê-lo para inteiro, tratando a InputMismatchException.
+
+1. Múltiplos catch: Crie um programa que possa lançar ArithmeticException e ArrayIndexOutOfBoundsException, e trate ambas.
+
+1. finally: Demonstre o uso do bloco finally para garantir que um código seja executado, independentemente de uma exceção.
+
+1. throws: Crie um método que lance uma exceção e use a palavra-chave throws na sua assinatura.
+
+1. Exceções Personalizadas: Crie sua própria exceção personalizada e lance-a em uma situação específica.
+
+## JavaScript (30 Exercícios)
+
+### Fundamentos e Lógica - JavaScript
+
+1. Variáveis e Tipos de Dados: Declare variáveis com let, const e var (explicando a diferença) para diferentes tipos de dados e imprima-as no console.
+
+1. Operadores Aritméticos: Crie um script que receba dois números e exiba o resultado de todas as operações aritméticas.
+
+1. Entrada e Saída (Browser): Use prompt() para perguntar o nome do usuário e alert() para exibir uma saudação.
+
+1. Condicionais (if/else): Verifique se um número é positivo, negativo ou zero.
+
+1. Operadores Lógicos: Crie uma condição que verifique se uma idade está entre 18 e 65 anos (inclusive).
+
+1. Loop for: Imprima os números de 1 a 20 no console.
+
+1. Loop while: Peça ao usuário para adivinhar um número entre 1 e 10 até que ele acerte.
+
+1. Arrays: Crie um array com 5 cores. Acesse e imprima a segunda cor.
+
+1. Objetos: Crie um objeto Pessoa com propriedades nome, idade e cidade. Imprima a idade.
+
+1. Funções: Crie uma função que receba dois números e retorne o produto deles.
+
+### Funções e Manipulação de Dados
+
+1. Funções Anônimas/Arrow Functions: Crie uma função que eleve um número ao quadrado usando uma arrow function.
+
+1. Callback Functions: Crie uma função que receba um array de números e uma função de callback. Aplique a callback a cada elemento do array.
+
+1. Métodos de Array (map): Use map para criar um novo array com o dobro de cada número de um array existente.
+
+1. Métodos de Array (filter): Use filter para criar um novo array apenas com os números pares de um array existente.
+
+1. Métodos de Array (reduce): Use reduce para calcular a soma de todos os números em um array.
+
+1. Manipulação de Strings: Receba uma string e inverta-a.
+
+1. Objetos Aninhados: Crie um objeto que represente um carro com propriedades como marca, modelo e um objeto motor com propriedades como cilindrada e tipo de combustível.
+
+1. Iterando sobre Objetos: Itere sobre as chaves e valores de um objeto e imprima-os.
+
+1. this Keyword: Demonstre o uso de this em um método de objeto.
+
+1. Spread Operator (...): Use o spread operator para combinar dois arrays e para copiar um objeto.
+
+### DOM (Document Object Model)
+
+1. Seleção de Elementos: Selecione um elemento HTML pelo seu ID e mude seu texto.
+
+1. Manipulação de Conteúdo: Crie um parágrafo (<p>) dinamicamente e adicione-o ao corpo do documento.
+
+1. Manipulação de Atributos: Altere o atributo src de uma imagem.
+
+1. Event Listeners (click): Crie um botão e, ao ser clicado, exiba um alerta.
+
+1. Event Listeners (mouseover/mouseout): Crie um elemento que mude de cor quando o mouse passar por cima e volte à cor original quando o mouse sair.
+
+### Assincronicidade e Desafios Extras
+
+1. setTimeout: Use setTimeout para exibir uma mensagem após 3 segundos.
+
+1. setInterval: Use setInterval para exibir um contador no console a cada segundo, e use clearInterval para pará-lo após 10 segundos.
+
+1. Promises: Crie uma Promise que simule uma operação assíncrona (ex: busca de dados). Resolva a Promise com sucesso ou rejeite-a com um erro.
+
+1. fetch API: Faça uma requisição fetch para uma API pública (ex: JSONPlaceholder) e imprima os dados no console.
+
+1. Mini-projeto: Lista de Tarefas (To-Do List): Crie uma interface HTML simples com um campo de entrada de texto e um botão. Ao clicar no botão, o texto é adicionado como um item a uma lista não ordenada ('\<ul>'). Inclua também um botão para remover cada item da lista.
