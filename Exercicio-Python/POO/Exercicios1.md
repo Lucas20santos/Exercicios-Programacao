@@ -1,3 +1,5 @@
+# Exercícios
+
 ---
 
 Excelente! Dar o próximo passo para **Design Patterns**, **SOLID** e conceitos de POO mais avançados é o que realmente diferencia um desenvolvedor Júnior de um Pleno/Sênior. Não se trata apenas de saber a sintaxe, mas de **estruturar seu código para ser flexível, manutenível e escalável**.
@@ -6,7 +8,7 @@ Os exercícios abaixo são projetados para forçar você a pensar sobre essas qu
 
 ---
 
-## 1. Sistema de Processamento de Pagamentos (Com Extensibilidade)
+## Sistema de Processamento de Pagamentos (Com Extensibilidade)
 
 Este projeto vai além de um simples carrinho de compras, focando em como lidar com diferentes tipos de pagamentos e a adição de novos métodos no futuro.
 
@@ -16,17 +18,18 @@ Este projeto vai além de um simples carrinho de compras, focando em como lidar 
     * `CartaoCredito` (herda de `Pagamento`): Implementa processamento para cartão de crédito.
     * `Boleto` (herda de `Pagamento`): Implementa processamento para boleto.
     * `PayPal` (herda de `Pagamento`): Implementa processamento para PayPal.
-* **Conceitos POO Avançados/Design Patterns/SOLID:**
+    * **Conceitos POO Avançados/Design Patterns/SOLID:**
     * **Princípio Aberto/Fechado (OCP - SOLID):** Você pode adicionar novos métodos de pagamento (ex: `Pix`, `Criptomoeda`) sem precisar modificar a classe `Pedido` ou o sistema de processamento principal.
-    * **Polimorfismo:** Diferentes objetos `Pagamento` respondem ao mesmo método `processar_pagamento()` de maneiras distintas.
-    * **Classes Abstratas (ABC):** `Pagamento` seria uma `ABC` para definir a interface comum.
-    * **Strategy Pattern:** O `Pedido` ou um `ProcessadorDePagamentos` central "usa" uma estratégia de pagamento (o objeto `Pagamento` concreto) para realizar a operação. A lógica de processamento é encapsulada na estratégia.
-    * **Single Responsibility Principle (SRP - SOLID):** A classe `Pedido` se preocupa com o pedido, não com os detalhes de como cada pagamento é processado. Cada classe de pagamento se preocupa apenas com seu próprio tipo de pagamento.
+* **Polimorfismo:** Diferentes objetos `Pagamento` respondem ao mesmo método `processar_pagamento()` de maneiras distintas.
+* **Classes Abstratas (ABC):** `Pagamento` seria uma `ABC` para definir a interface comum.
+* **Strategy Pattern:** O `Pedido` ou um `ProcessadorDePagamentos` central "usa" uma estratégia de pagamento (o objeto `Pagamento` concreto) para realizar a operação. A lógica de processamento é encapsulada na estratégia.
+* **Single Responsibility Principle (SRP - SOLID):** A classe `Pedido` se preocupa com o pedido, não com os detalhes de como cada pagamento é processado. Cada classe de pagamento se preocupa apenas com seu próprio tipo de pagamento.
+
 * **Desafio Adicional:** Adicione um sistema de `Notificacao` (email, SMS) após o pagamento. Isso pode levar a um **Observer Pattern**.
 
 ---
 
-## 2. Framework de Geração de Relatórios Flexível
+## Framework de Geração de Relatórios Flexível
 
 Crie um sistema que pode gerar relatórios em diferentes formatos (PDF, CSV, HTML) e de diferentes fontes de dados.
 
