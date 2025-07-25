@@ -6,124 +6,54 @@
 
 #### Nível Básico: Classes, Objetos, Atributos e Métodos
 
-1. **Classe `Pessoa`:**
-    * Crie uma classe `Pessoa` com atributos `nome` e `idade`.
-    * Crie um método `apresentar()` que imprima "Olá, meu nome é [nome] e tenho [idade] anos."
-    * Crie duas instâncias de `Pessoa` e chame o método `apresentar()`.
-
-2. **Classe `Carro`:**
-    * Crie uma classe `Carro` com atributos `marca`, `modelo` e `ano`.
-    * Adicione um método `ligar()` que imprima "O [marca] [modelo] está ligado."
-    * Instancie um carro e chame `ligar()`.
-
-3. **Atributos de Classe:**
-    * Na classe `Carro`, adicione um atributo de classe `rodas` com valor `4`.
-    * Acesse e imprima o atributo `rodas` usando a classe e uma instância.
-
-4. **Métodos com Parâmetros:**
-    * Na classe `Carro`, crie um método `acelerar(velocidade)` que imprime "O carro acelerou para [velocidade] km/h."
-    * Chame o método com um valor.
-
-5. **Método de Retorno:**
-    * Crie um método `calcular_idade_futura(anos)` na classe `Pessoa` que retorne a idade da pessoa após `anos` passados.
-    * Imprima o resultado.
-
-6. **Construtor com Valores Padrão:**
-    * Altere o construtor de `Pessoa` para que `idade` seja opcional e tenha um valor padrão de `0`.
-
-7. **Classe `Retangulo`:**
-    * Crie uma classe `Retangulo` com atributos `largura` e `altura`.
-    * Adicione métodos para `calcular_area()` e `calcular_perimetro()`.
-
-8. **Classe `ContaBancaria`:**
-    * Crie uma classe `ContaBancaria` com atributos `saldo` (inicial `0`) e `titular`.
-    * Adicione métodos `depositar(valor)` e `sacar(valor)`. Valide o saque para não permitir saldo negativo.
-
-9. **Classe `Cachorro`:**
-    * Crie uma classe `Cachorro` com `nome` e `raca`.
-    * Adicione um método `latir()` que imprime "Au au!".
-    * Adicione um método `comer(comida)` que imprime "O [nome] está comendo [comida]."
-
-10. **Multiplas Instâncias:**
-    * Crie 3 instâncias da classe `Cachorro` com diferentes nomes e raças e chame `latir()` para cada uma.
-
 #### Nível Intermediário: Herança, Encapsulamento, Polimorfismo
 
-1. **Herança Simples: `Funcionario`:**
-    * Crie uma classe `Funcionario` que herda de `Pessoa`.
-    * Adicione um atributo `salario` e `cargo`.
-    * Sobrescreva o método `apresentar()` para incluir o cargo e salário.
-
-2. **Herança Múltipla: `ChefeDeDepartamento` (Desafio):**
-    * Crie uma classe `Gerente` (herda de `Funcionario`) com atributo `bonus`.
-    * Crie uma classe `ChefeDeDepartamento` que herde de `Gerente`.
-    * (Opcional): Se puder, use herança múltipla com uma classe `LiderDeEquipe` (se aplicável), mas cuidado com o Diamante da Morte. Foco no conceito de herança multinível.
-
-3. **Encapsulamento Básico (`_`):**
-    * Na classe `ContaBancaria`, mude `saldo` para `_saldo` (convenção de atributo protegido).
-    * Garanta que `depositar` e `sacar` ainda funcionem corretamente.
-
-4. **Getters e Setters (`@property`):**
-    * Na classe `Pessoa`, adicione um `@property` para `idade` que só permite valores positivos.
-    * Adicione um `@idade.setter` para o mesmo atributo.
-
-5. **Métodos Estáticos:**
-    * Na classe `Carro`, adicione um método estático `informar_tipo_veiculo()` que retorna "Este é um veículo terrestre".
-
-6. **Métodos de Classe (`@classmethod`):**
-    * Na classe `Pessoa`, crie um método de classe `criar_de_string(dados_string)` que receba uma string "Nome,Idade" e retorne uma nova instância de `Pessoa`.
-
-7. **Polimorfismo Básico:**
-    * Crie uma lista contendo instâncias de `Pessoa` e `Funcionario`.
-    * Itere sobre a lista e chame o método `apresentar()` para cada um, observando o comportamento polimórfico.
-
-8. **Classe Abstrata (ABC):**
+1. **Classe Abstrata (ABC):**
     * Crie uma classe base abstrata `Animal` com um método abstrato `emitir_som()`.
     * Crie classes concretas `Cachorro` e `Gato` que herdam de `Animal` e implementam `emitir_som()`.
-
-9. **Herança e Composição:**
+1. **Herança e Composição:**
     * Considere um `Motor` como uma classe separada.
     * A classe `Carro` agora **tem um** `Motor` (composição), em vez de herdar dele.
 
-10. **Polimorfismo com Composição:**
+1. **Polimorfismo com Composição:**
     * Crie diferentes tipos de `Motor` (ex: `MotorCombustao`, `MotorEletrico`) que herdem de uma classe base `Motor`.
     * A classe `Carro` agora pode aceitar qualquer tipo de `Motor` e chamar um método como `motor.ligar()` polimorficamente.
 
-11. **Sobrecarga de Operadores (`__add__`, etc. - Básico):**
+1. **Sobrecarga de Operadores (`__add__`, etc. - Básico):**
     * Na classe `Retangulo`, defina o método `__add__` para que a soma de dois retângulos retorne um novo retângulo com a soma das áreas (ou outra lógica simples).
 
-12. **Métodos Mágicos (`__str__`, `__repr__`):**
+1. **Métodos Mágicos (`__str__`, `__repr__`):**
     * Para as classes `Pessoa` e `Carro`, implemente os métodos `__str__` e `__repr__` para fornecer representações de string úteis.
 
-13. **Comparação de Objetos (`__eq__`):**
+1. **Comparação de Objetos (`__eq__`):**
     * Na classe `Carro`, implemente `__eq__` para que dois carros sejam considerados iguais se tiverem a mesma marca e modelo.
 
-14. **Exceções Personalizadas:**
+1. **Exceções Personalizadas:**
     * Na classe `ContaBancaria`, crie uma exceção personalizada `SaldoInsuficienteError` e lance-a quando o saque não for possível.
 
-15. **Classe `Produto`:**
+1. **Classe `Produto`:**
     * Crie uma classe `Produto` com `nome`, `preco` e `quantidade_estoque`.
     * Adicione métodos para `vender(qtd)` e `repor(qtd)`.
     * Implemente `@property` para `preco` (não pode ser negativo) e `quantidade_estoque` (não pode ser negativo).
 
-16. **Classe `Pedido` (Composição):**
+1. **Classe `Pedido` (Composição):**
     * Crie uma classe `Pedido` que **contém** uma lista de `Produto`s e suas quantidades.
     * Adicione um método `adicionar_item(produto, quantidade)` e `calcular_total()`.
 
-17. **Mixins (Conceito):**
+1. **Mixins (Conceito):**
     * Crie um mixin `Logavel` com um método `logar_evento(mensagem)`.
     * Aplique este mixin a classes como `ContaBancaria` para adicionar funcionalidade de log.
 
-18. **Classe `Data`:**
+1. **Classe `Data`:**
     * Crie uma classe `Data` com `dia`, `mes`, `ano`.
     * Implemente `__str__` para formatar como "DD/MM/AAAA".
     * Valide a data no construtor (ex: mês entre 1 e 12).
 
-19. **Context Manager (`__enter__`, `__exit__`):**
+1. **Context Manager (`__enter__`, `__exit__`):**
     * Crie uma classe `GerenciadorArquivo` que abra um arquivo no `__enter__` e o feche no `__exit__`.
     * Use com a instrução `with`.
 
-20. **Classe `Robo`:**
+1. **Classe `Robo`:**
     * Crie uma classe `Robo` com `nome` e `bateria` (0-100%).
     * Métodos: `mover()`, `carregar()`.
     * Adicione um `__str__` para mostrar o status do robô.
