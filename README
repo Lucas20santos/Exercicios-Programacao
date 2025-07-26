@@ -10,6 +10,8 @@ Gere um readme personalisado que descreva meu repositoris de exercicios de progr
   - Fundamentos-JavaScript-01.md
 - Exercício-Python: Diretório
   - Fundamentos-Python: subdiretório
-    - Fundamentos
+    - Fundamentos-Python-01.ipynb
+    - Fundamentos-Python-02.ipynb
+  - Fundamentos-Python-POO
 - Exercício-SQL
 - Exercício-Pandas
