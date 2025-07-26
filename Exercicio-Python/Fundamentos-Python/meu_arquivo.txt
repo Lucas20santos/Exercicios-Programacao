@@ -1,0 +1,5 @@
+Esse arquivo é um arquivo teste para testar uma leitura de arquivo com python. 
+Cabeça
+caminhão
+almofada
+caneta
