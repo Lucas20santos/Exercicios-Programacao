@@ -1,0 +1,67 @@
+# 🚀 Meu Repositório de Exercícios de Programação
+
+![imagem](./repositorios.png)
+
+Bem-vindo(a) ao meu repositório de exercícios! Este espaço é dedicado à prática e ao aprimoramento das minhas habilidades em diversas linguagens e tecnologias de programação. Aqui você encontrará uma variedade de desafios, desde fundamentos até tópicos mais avançados, organizados de forma clara para facilitar o estudo e a revisão.
+
+## 📁 Estrutura do Repositório
+
+O repositório é organizado por linguagem ou tecnologia, com subdiretórios para tópicos específicos. Abaixo, uma visão geral:
+
+### ☕ Exercício-Java
+
+Este diretório contém exercícios focados nos **fundamentos da linguagem Java**.
+
+* `Fundamentos-Java-01.md`
+
+### 🌐 Exercício-JavaScript
+
+Aqui você encontrará exercícios para solidificar seus conhecimentos nos **fundamentos do JavaScript**.
+
+* `Fundamentos-JavaScript-01.md`
+
+### 🐍 Exercício-Python
+
+Este diretório é dedicado a exercícios de Python, abrangendo tanto os fundamentos da linguagem quanto conceitos de Orientação a Objetos.
+
+* **Fundamentos-Python**: Exercícios introdutórios de Python.
+  * `Fundamentos-Python-01.ipynb`
+  * `Fundamentos-Python-02.ipynb`
+* **Fundamentos-Python-POO**: Exercícios focados em **Programação Orientada a Objetos com Python**.
+  * `Fundamentos-Python-POO-01.ipynb`
+  * `Fundamentos-Python-POO-02.ipynb`
+  * `Fundamentos-Python-POO-03.ipynb`
+  * `Fundamentos-Python-POO-04.ipynb`
+
+### 📊 Exercício-Pandas
+
+Uma coleção abrangente de exercícios para dominar a biblioteca **Pandas** em Python, essencial para análise de dados. Cada seção é dividida em exercícios e suas respectivas soluções.
+
+* **01_Getting_&_Knowing_Your_Data**: Exercícios para entender e explorar seus dados.
+  * **Chipotle**
+  * **Occupation**
+  * **World Food Facts**
+* **02_Filtering_&_Sorting**: Como filtrar e ordenar dados em DataFrames.
+  * **Chipotle**
+  * **Euro 12**
+  * **Fictional Army**
+* **03_Grouping**: Técnicas de agrupamento de dados.
+* **04_Apply**: Utilizando a função `apply` para manipulação de dados.
+* **05_Merge**: Combinando DataFrames.
+* **06_Stats**: Cálculo de estatísticas descritivas.
+* **07_Visualization**: Introdução à visualização de dados com Pandas.
+* **08_Creating_Series_and_DataFrames**: Criando suas próprias Series e DataFrames.
+* **09_Time_Series**: Trabalhando com dados de séries temporais.
+* **10_Deleting**: Removendo dados de DataFrames.
+* **11_Indexing**: Diferentes formas de indexar dados.
+* **Template**: Um modelo para novos exercícios.
+
+*(Dentro de cada subdiretório de Pandas (ex: Chipotle, Occupation, etc.), você encontrará os arquivos `Exercises.ipynb` com os exercícios, `Solutions.ipynb` com as soluções e `Exercise_with_Solutions.ipynb` combinando ambos para facilitar o estudo.)*
+
+### 🗄️ Exercício-SQL
+
+Este diretório será dedicado à prática de **consultas SQL** e manipulação de bancos de dados.
+
+## 💡 Como Usar
+
+Sinta-se à vontade para explorar os diretórios e os arquivos. Os notebooks Jupyter (`.ipynb`) são ideais para rodar e testar o código interativamente, enquanto os arquivos `.md` contêm as descrições e soluções dos exercícios.
