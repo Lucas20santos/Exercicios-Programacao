@@ -45,14 +45,100 @@ Gere um readme personalisado que descreva meu repositoris de exercicios de progr
       - Exercises.ipynb: arquivo
       - Solutions.ipynb: arquivo
   - 03_Grouping
+    - Alcohol_Consumption
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Occupation
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Regiment
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 04_Apply
+    - Students_Alcohol_Consumption
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - US_Crime_Rates
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 05_Merge
+    - Auto_MPG
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Fictitous Names
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Housing Market
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 06_Stats
+    - US_Baby_Names
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Wind_Stats
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 07_Visualization
+    - Chipotle
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Online_Retail
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Scores
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Tips
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Titanic_Desaster
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 08_Creating_Series_and_DataFrames
+    - Exercise_with_Solutions.ipynb: arquivo
+    - Exercises.ipynb: arquivo
+    - Solutions.ipynb: arquivo
   - 09_Time_Series
+    - Apple_Stock
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Getting_Financial_Data
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Investor_Flow_of_Founds_US
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 10_Deleting
+    - Iris
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
+    - Wine
+      - Exercise_with_Solutions.ipynb: arquivo
+      - Exercises.ipynb: arquivo
+      - Solutions.ipynb: arquivo
   - 11_Indexing
+    - Exercises.ipynb: arquivo
   - Template
+    - Exercises.ipynb
+    - Solutions.ipynb
 - Exercício-SQL
 - img

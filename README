@@ -24,6 +24,10 @@ Aqui você encontrará exercícios para solidificar seus conhecimentos nos **fun
 
 Este diretório é dedicado a exercícios de Python, abrangendo tanto os fundamentos da linguagem quanto conceitos de Orientação a Objetos.
 
+```python
+  print("Hello World")
+```
+
 * **Fundamentos-Python**: Exercícios introdutórios de Python.
   * `Fundamentos-Python-01.ipynb`
   * `Fundamentos-Python-02.ipynb`
