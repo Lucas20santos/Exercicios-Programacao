@@ -7,6 +7,7 @@
 #### Teoria
 
 1. O que é um **Sistema Gerenciador de Banco de Dados (SGBD)**?
+  R. 
 1. Qual a principal diferença entre **dados** e **informação**?
 1. O que é um **esquema** de banco de dados?
 1. Explique o conceito de **modelo de dados**.
